@@ -179,11 +179,11 @@
 
   <build>
     <plugins>
-            <plugin>
-                <groupId>com.mysema.scalagen</groupId>
-                <artifactId>scalagen-maven-plugin</artifactId>
-                <version>0.2.2</version>
-            </plugin>
+      <plugin>
+         <groupId>com.mysema.scalagen</groupId>
+         <artifactId>scalagen-maven-plugin</artifactId>
+         <version>0.2.2</version>
+      </plugin>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
