@@ -1,0 +1,4 @@
+language: java
+script: mvn scalagen:main scalagen:test
+jdk:
+  - oraclejdk7
